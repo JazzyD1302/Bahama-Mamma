@@ -3,15 +3,29 @@
     color: black !important;
 }
 
-
+.Logo{
+    text-align: center;
+    align-content: center;
+   border-style: solid;
+   border-width: 3%;
+   border-color: goldenrod;
+   background: rgba(40,60,184,1);
+   background: -moz-linear-gradient(45deg, rgba(40,60,184,1) 0%, rgba(33,180,226,1) 26%, rgba(33,180,226,1) 74%, rgba(40,60,184,1) 100%);
+   background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(40,60,184,1)), color-stop(26%, rgba(33,180,226,1)), color-stop(74%, rgba(33,180,226,1)), color-stop(100%, rgba(40,60,184,1)));
+   background: -webkit-linear-gradient(45deg, rgba(40,60,184,1) 0%, rgba(33,180,226,1) 26%, rgba(33,180,226,1) 74%, rgba(40,60,184,1) 100%);
+   background: -o-linear-gradient(45deg, rgba(40,60,184,1) 0%, rgba(33,180,226,1) 26%, rgba(33,180,226,1) 74%, rgba(40,60,184,1) 100%);
+   background: -ms-linear-gradient(45deg, rgba(40,60,184,1) 0%, rgba(33,180,226,1) 26%, rgba(33,180,226,1) 74%, rgba(40,60,184,1) 100%);
+   background: linear-gradient(45deg, rgba(40,60,184,1) 0%, rgba(33,180,226,1) 26%, rgba(33,180,226,1) 74%, rgba(40,60,184,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283cb8', endColorstr='#283cb8', GradientType=1 );    
+}
 
 /* cellphones */
 @media only screen and (min-width: 300px){
+    
     .Logo{
-        position: relative;
-       text-align: center;
-       width: 100%;
+        margin: 0 auto;
     }
+
     .imgLogo{
         width: 75%;
         height: 75%;
@@ -30,30 +44,7 @@
          position: relative;
          text-align: center;
     }
-    /* .PageList li{
-         font-family: code-saver,sans-serif;
-         font-weight: 700;
-         font-style: normal;
-         font-size: 13px;
-    
-         position: relative;
-         display: inline;
-         background-color:rgb(5, 94, 5);
-         background-image: url("../assets/infa.png");
-         margin-right: 10px;
-         padding: 5px;
-         border-radius: 30%;
-         border-width: 2px;
-         border-color: goldenrod;
-         border-style: solid;
-         z-index: 30;
-         color: white !important;
-    } 
-    
-     .PageList li:hover{
-         background-color: rgb(19, 44, 44) ;
-         cursor: pointer;
-    }*/
+
 
     .PageList li{
         position: relative;
@@ -91,10 +82,8 @@
          .Background{
             width: 23.1em;
              height: 15em;
-             background-image: url("../assets/waves.jpg");
-             border-width: 4px;
-             border-color: goldenrod;
-             border-style: solid;
+             border:none !important;
+             background:none !important;
      
              position: absolute;
              left: 0px;
@@ -105,10 +94,8 @@
         .Background{
             width: 23.2em;
             height: 12em;
-            background-image: url("../assets/waves.jpg");
-            border-width: 2%;
-            border-color: goldenrod;
-            border-style: solid;
+            border:none !important;
+             background:none !important;
     
             position: absolute;
             left: 0px;
@@ -119,9 +106,7 @@
     
     @media only screen and (min-width: 411px) and (max-width: 414px){
         .Logo{
-            position: relative;
-           text-align: center;
-           width: 100%;
+            margin: 0 auto;
         }
         .imgLogo{
             width: 75%;
@@ -174,10 +159,8 @@
              .Background{
                 width: 25.1em;
                  height: 12em;
-                 background-image: url("../assets/waves.jpg");
-                 border-width: 4px;
-                 border-color: goldenrod;
-                 border-style: solid;
+                 border:none !important;
+                 background:none !important;
          
                  position: absolute;
                  left: 0px;
@@ -188,10 +171,8 @@
             .Background{
                 width: 25.1em;
                 height: 12em;
-                background-image: url("../assets/waves.jpg");
-                border-width: 2%;
-                border-color: goldenrod;
-                border-style: solid;
+                border:none !important;
+             background:none !important;
         
                 position: absolute;
                 left: 0px;
@@ -204,10 +185,6 @@
 
 /* tablets */
         @media only screen and (min-width: 750px){
-            .Logo{
-                position: relative;
-               text-align: center;
-            }
             
             .imgLogo{
                 width: 75%;
@@ -290,10 +267,8 @@
                  .Background{
                     width: 47.3em;
                      height: 19em;
-                     background-image: url("../assets/waves.jpg");
-                     border-width: 4px;
-                     border-color: goldenrod;
-                     border-style: solid;
+                     border:none !important;
+                     background:none !important;
              
                      position: absolute;
                      left: 0px;
@@ -302,10 +277,6 @@
             }
 
         @media only screen and (min-width: 1000px) and (min-height:1365px){
-            .Logo{
-                position: relative;
-               text-align: center;
-            }
 
             .imgLogo{
                 width: 75%;
@@ -357,10 +328,8 @@
                  .Background{
                     width: 63.5em;
                      height: 24.2em;
-                     background-image: url("../assets/Wave2.png");
-                     border-width: 4px;
-                     border-color: goldenrod;
-                     border-style: solid;
+                     border:none !important;
+             background:none !important;
              
                      position: absolute;
                      left: 0px;
@@ -371,24 +340,9 @@
 /* computers */
 @media only screen and (min-width: 1000px) and (max-height:1200px){
     .Logo{
-        position: relative;
-       text-align: center;
-       align-content: center;
-       left:21em;
-       width: 450px;
-       height:185px;
-       border-style: solid;
-       border-width: 3%;
-       border-color: goldenrod;
-       background: rgba(40,60,184,1);
-       background: -moz-linear-gradient(45deg, rgba(40,60,184,1) 0%, rgba(33,180,226,1) 26%, rgba(33,180,226,1) 74%, rgba(40,60,184,1) 100%);
-       background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(40,60,184,1)), color-stop(26%, rgba(33,180,226,1)), color-stop(74%, rgba(33,180,226,1)), color-stop(100%, rgba(40,60,184,1)));
-       background: -webkit-linear-gradient(45deg, rgba(40,60,184,1) 0%, rgba(33,180,226,1) 26%, rgba(33,180,226,1) 74%, rgba(40,60,184,1) 100%);
-       background: -o-linear-gradient(45deg, rgba(40,60,184,1) 0%, rgba(33,180,226,1) 26%, rgba(33,180,226,1) 74%, rgba(40,60,184,1) 100%);
-       background: -ms-linear-gradient(45deg, rgba(40,60,184,1) 0%, rgba(33,180,226,1) 26%, rgba(33,180,226,1) 74%, rgba(40,60,184,1) 100%);
-       background: linear-gradient(45deg, rgba(40,60,184,1) 0%, rgba(33,180,226,1) 26%, rgba(33,180,226,1) 74%, rgba(40,60,184,1) 100%);
-       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283cb8', endColorstr='#283cb8', GradientType=1 );    
-        text-align: center;
+        height: 70%;
+        width: 40%;
+        margin: 0 auto;
     }
 
     .imgLogo{
@@ -459,14 +413,28 @@
         background-image:url("../assets/price-hov.png");
         transition:background-image 500ms ease-out 0.05s;
     }
-    
-         .Background{
-           left: 100px;
-                width: 70em;
-             height: 19em;
-             border:none !important;
-             background:none !important;
-             position: absolute;
-             top: 0px;
-        }
     }
+    @media only screen and (min-width: 1400px){
+        .Logo{
+            height: 70%;
+            width: 40%;
+            margin: 0 auto;
+        }
+        }
+
+        @media only screen and (min-width: 1600px){
+            .Logo{
+                height: 70%;
+                width: 40%;
+                margin: 0 auto;
+            }
+       }
+
+
+       @media only screen and (min-width: 1900px){
+        .Logo{
+            height: 70%;
+            width: 30%;
+            margin: 0 auto;
+        }
+   }
